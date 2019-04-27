@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="AddContactInformation">
+    
+       <parameter name="username" value= "techfiosdemo@gmail.com"/>
+       <parameter name="password" value= "abc123"/>
+        <parameter name="account" value= "John Smith"/>
+         <parameter name="company" value= "Nokia"/>
+          <parameter name="email" value= "john@gmail.com"/>
+           <parameter name="phone" value= "3345545454"/>
+            <parameter name="address" value= "315 Finley"/>
+             <parameter name="city" value= "Dallas"/>
+             <parameter name="state" value= "Texas"/>
+             <parameter name="zip" value= "75038"/>
+      <classes>
+      <class name="test.AddContactTest"/>
+     </classes> 
+     </test>
+     
+</suite> <!-- Suite -->
